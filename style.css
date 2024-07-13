@@ -1,0 +1,120 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: rgb(0, 87, 255);
+    background: radial-gradient(circle, rgba(0, 87, 255, 1) 35%, rgba(0, 34, 99, 1) 100%);
+    color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1ca1ff;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.46);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid;
+}
+
+h2 {
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.692);
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: #2870ff;
+    width: fit-content;
+    height: max-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.46);
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gmail_logo {
+    display: flex;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.settings_logo {
+    display: flex;
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+}
+
+.entourer {
+    background-color: #2870ff;
+}
+
+.contacter_box {
+    width: 500px;
+    height: max-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div .contacter_h3 {
+    width: 200px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.second {
+    position: relative;
+    top: -40px;
+    left: 250px;
+    text-align: left;
+}
+
+.contacter_box_end {
+    text-align: center;
+}
+
+.contacter_h3_end {
+    text-align: center;
+}
+
+footer {
+    background-color: #2870ff;
+    /* display: table-row; */
+    width: auto;
+}
